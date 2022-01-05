@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1022CC37275C268100BCB5B0 /* ChooseUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022CC36275C268100BCB5B0 /* ChooseUserView.swift */; };
+		1022CC39275C30F200BCB5B0 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022CC38275C30F200BCB5B0 /* MessagesView.swift */; };
+		10235E9A275BC4E30046FF59 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235E95275BC4E30046FF59 /* Chat.swift */; };
+		10235E9B275BC4E30046FF59 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235E96275BC4E30046FF59 /* User.swift */; };
+		10235E9C275BC4E30046FF59 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235E97275BC4E30046FF59 /* Like.swift */; };
+		10235E9D275BC4E30046FF59 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235E98275BC4E30046FF59 /* Message.swift */; };
+		10235E9E275BC4E30046FF59 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235E99275BC4E30046FF59 /* Payment.swift */; };
+		10235EDA275BE8B10046FF59 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235ED5275BE8B10046FF59 /* ChatViewModel.swift */; };
+		10235EDB275BE8B10046FF59 /* LikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235ED6275BE8B10046FF59 /* LikeViewModel.swift */; };
+		10235EDC275BE8B10046FF59 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235ED7275BE8B10046FF59 /* PaymentViewModel.swift */; };
+		10235EDD275BE8B10046FF59 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235ED8275BE8B10046FF59 /* MessageViewModel.swift */; };
+		10235EDE275BE8B10046FF59 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235ED9275BE8B10046FF59 /* UserViewModel.swift */; };
+		10235EE1275BE9EE0046FF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10235EDF275BE9EE0046FF59 /* LaunchScreen.storyboard */; };
+		10235EE2275BE9EE0046FF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10235EE0275BE9EE0046FF59 /* Main.storyboard */; };
+		10235EE8275BEA8B0046FF59 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EE3275BEA8B0046FF59 /* Extensions.swift */; };
+		10235EE9275BEA8B0046FF59 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EE4275BEA8B0046FF59 /* Alert.swift */; };
+		10235EEA275BEA8B0046FF59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EE5275BEA8B0046FF59 /* Constants.swift */; };
+		10235EEB275BEA8B0046FF59 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EE6275BEA8B0046FF59 /* PinAnnotation.swift */; };
+		10235EEC275BEA8B0046FF59 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EE7275BEA8B0046FF59 /* Spinner.swift */; };
+		10235EFE275BEB8F0046FF59 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EFD275BEB8F0046FF59 /* ChatView.swift */; };
+		10235F00275BEBA30046FF59 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235EFF275BEBA30046FF59 /* PeopleView.swift */; };
+		10235F02275BEBA90046FF59 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F01275BEBA90046FF59 /* LoginView.swift */; };
+		10235F04275BEBB40046FF59 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F03275BEBB40046FF59 /* NotificationView.swift */; };
+		10235F06275BEBC40046FF59 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F05275BEBC40046FF59 /* SettingsView.swift */; };
+		10235F08275BEBCB0046FF59 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F07275BEBCB0046FF59 /* SignupView.swift */; };
+		10235F0A275BEBD20046FF59 /* VerifUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F09275BEBD20046FF59 /* VerifUserView.swift */; };
+		10235F0C275BEBE40046FF59 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10235F0B275BEBE40046FF59 /* WelcomeView.swift */; };
+		10449FC5275BEF7C0014FFE6 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449FC4275BEF7C0014FFE6 /* ForgotPasswordView.swift */; };
+		10449FC7275BF0DF0014FFE6 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449FC6275BF0DF0014FFE6 /* PasswordResetView.swift */; };
+		10449FC9275BF0EA0014FFE6 /* ResetCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10449FC8275BF0EA0014FFE6 /* ResetCodeView.swift */; };
+		10605F98275C0DD800AD4428 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10605F97275C0DD800AD4428 /* ProfileView.swift */; };
+		4F04E5A42782F5A3002A6E86 /* FireLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04E5A32782F5A3002A6E86 /* FireLoader.swift */; };
+		4F04E5A62782F664002A6E86 /* FireAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04E5A52782F664002A6E86 /* FireAnimViewController.swift */; };
+		4F97223C277B2E2F009EBB3B /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F97223B277B2E2F009EBB3B /* PayViewController.swift */; };
+		4F972242277B858E009EBB3B /* QrCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F972241277B858E009EBB3B /* QrCodeViewController.swift */; };
+		4FA814FC277C7D2F007FC233 /* SecondModalTransitionMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA814FB277C7D2F007FC233 /* SecondModalTransitionMediator.swift */; };
+		4FDDB5052768DCA1003AD3BB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDB5042768DCA1003AD3BB /* MapViewController.swift */; };
+		889EFB4F2767BC1C000137E8 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EFB4E2767BC1C000137E8 /* FacebookViewController.swift */; };
+		889EFB5A2767CFE6000137E8 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 889EFB592767CFE6000137E8 /* FacebookCore */; };
+		889EFB5C2767CFF0000137E8 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 889EFB5B2767CFF0000137E8 /* FacebookGamingServices */; };
+		889EFB5E2767CFF4000137E8 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 889EFB5D2767CFF4000137E8 /* FacebookLogin */; };
+		889EFB602767CFFA000137E8 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 889EFB5F2767CFFA000137E8 /* FacebookShare */; };
+		93EEA2110DF6E36266E5C290 /* Pods_Geochat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C992D0C8B5D505119164E07 /* Pods_Geochat.framework */; };
+		CE8DCF43275BA3C000CA8467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DCF42275BA3C000CA8467 /* AppDelegate.swift */; };
+		CE8DCF45275BA3C000CA8467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DCF44275BA3C000CA8467 /* SceneDelegate.swift */; };
+		CE8DCF4C275BA3C100CA8467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8DCF4B275BA3C100CA8467 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1022CC36275C268100BCB5B0 /* ChooseUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseUserView.swift; sourceTree = "<group>"; };
+		1022CC38275C30F200BCB5B0 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		10235E95275BC4E30046FF59 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		10235E96275BC4E30046FF59 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		10235E97275BC4E30046FF59 /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		10235E98275BC4E30046FF59 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		10235E99275BC4E30046FF59 /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		10235ED5275BE8B10046FF59 /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		10235ED6275BE8B10046FF59 /* LikeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeViewModel.swift; sourceTree = "<group>"; };
+		10235ED7275BE8B10046FF59 /* PaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		10235ED8275BE8B10046FF59 /* MessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		10235ED9275BE8B10046FF59 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		10235EDF275BE9EE0046FF59 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10235EE0275BE9EE0046FF59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		10235EE3275BEA8B0046FF59 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		10235EE4275BEA8B0046FF59 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		10235EE5275BEA8B0046FF59 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10235EE6275BEA8B0046FF59 /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		10235EE7275BEA8B0046FF59 /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		10235EFD275BEB8F0046FF59 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		10235EFF275BEBA30046FF59 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		10235F01275BEBA90046FF59 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		10235F03275BEBB40046FF59 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		10235F05275BEBC40046FF59 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		10235F07275BEBCB0046FF59 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		10235F09275BEBD20046FF59 /* VerifUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifUserView.swift; sourceTree = "<group>"; };
+		10235F0B275BEBE40046FF59 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		10449FC4275BEF7C0014FFE6 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		10449FC6275BF0DF0014FFE6 /* PasswordResetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		10449FC8275BF0EA0014FFE6 /* ResetCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetCodeView.swift; sourceTree = "<group>"; };
+		10605F97275C0DD800AD4428 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1AF3CE407264872F40E725F6 /* Pods-Geochat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geochat.release.xcconfig"; path = "Target Support Files/Pods-Geochat/Pods-Geochat.release.xcconfig"; sourceTree = "<group>"; };
+		4F04E5A32782F5A3002A6E86 /* FireLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireLoader.swift; sourceTree = "<group>"; };
+		4F04E5A52782F664002A6E86 /* FireAnimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireAnimViewController.swift; sourceTree = "<group>"; };
+		4F97223B277B2E2F009EBB3B /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		4F972241277B858E009EBB3B /* QrCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeViewController.swift; sourceTree = "<group>"; };
+		4FA814FB277C7D2F007FC233 /* SecondModalTransitionMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModalTransitionMediator.swift; sourceTree = "<group>"; };
+		4FDDB5042768DCA1003AD3BB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7C992D0C8B5D505119164E07 /* Pods_Geochat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geochat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		889EFB4E2767BC1C000137E8 /* FacebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		CBD26892BCE6FC3C6B0A9AB1 /* Pods-Geochat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geochat.debug.xcconfig"; path = "Target Support Files/Pods-Geochat/Pods-Geochat.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8DCF3F275BA3C000CA8467 /* Geochat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geochat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DCF42275BA3C000CA8467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE8DCF44275BA3C000CA8467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE8DCF4B275BA3C100CA8467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8DCF50275BA3C100CA8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8DCF3C275BA3C000CA8467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889EFB5E2767CFF4000137E8 /* FacebookLogin in Frameworks */,
+				889EFB5C2767CFF0000137E8 /* FacebookGamingServices in Frameworks */,
+				93EEA2110DF6E36266E5C290 /* Pods_Geochat.framework in Frameworks */,
+				889EFB602767CFFA000137E8 /* FacebookShare in Frameworks */,
+				889EFB5A2767CFE6000137E8 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CC2261E9572169C714B485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBD26892BCE6FC3C6B0A9AB1 /* Pods-Geochat.debug.xcconfig */,
+				1AF3CE407264872F40E725F6 /* Pods-Geochat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F97223D277B3713009EBB3B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		93441C6C2C2C7CC46E368C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C992D0C8B5D505119164E07 /* Pods_Geochat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8DCF36275BA3C000CA8467 = {
+			isa = PBXGroup;
+			children = (
+				4F97223D277B3713009EBB3B /* Packages */,
+				CE8DCF41275BA3C000CA8467 /* Geochat */,
+				CE8DCF40275BA3C000CA8467 /* Products */,
+				03CC2261E9572169C714B485 /* Pods */,
+				93441C6C2C2C7CC46E368C9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8DCF40275BA3C000CA8467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DCF3F275BA3C000CA8467 /* Geochat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8DCF41275BA3C000CA8467 /* Geochat */ = {
+			isa = PBXGroup;
+			children = (
+				10235EE0275BE9EE0046FF59 /* Main.storyboard */,
+				10235EDF275BE9EE0046FF59 /* LaunchScreen.storyboard */,
+				CE8DCF42275BA3C000CA8467 /* AppDelegate.swift */,
+				CE8DCF44275BA3C000CA8467 /* SceneDelegate.swift */,
+				CE8DCF61275BA4AF00CA8467 /* Model */,
+				CE8DCF60275BA4AD00CA8467 /* View */,
+				CE8DCF5F275BA4AC00CA8467 /* ViewModel */,
+				CE8DCF5E275BA4AA00CA8467 /* Utils */,
+				CE8DCF4B275BA3C100CA8467 /* Assets.xcassets */,
+				CE8DCF50275BA3C100CA8467 /* Info.plist */,
+			);
+			path = Geochat;
+			sourceTree = "<group>";
+		};
+		CE8DCF5E275BA4AA00CA8467 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10235EE4275BEA8B0046FF59 /* Alert.swift */,
+				10235EE5275BEA8B0046FF59 /* Constants.swift */,
+				4FA814FB277C7D2F007FC233 /* SecondModalTransitionMediator.swift */,
+				10235EE3275BEA8B0046FF59 /* Extensions.swift */,
+				10235EE6275BEA8B0046FF59 /* PinAnnotation.swift */,
+				10235EE7275BEA8B0046FF59 /* Spinner.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE8DCF5F275BA4AC00CA8467 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10235ED5275BE8B10046FF59 /* ChatViewModel.swift */,
+				10235ED6275BE8B10046FF59 /* LikeViewModel.swift */,
+				10235ED8275BE8B10046FF59 /* MessageViewModel.swift */,
+				10235ED7275BE8B10046FF59 /* PaymentViewModel.swift */,
+				10235ED9275BE8B10046FF59 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE8DCF60275BA4AD00CA8467 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10235F09275BEBD20046FF59 /* VerifUserView.swift */,
+				10235F0B275BEBE40046FF59 /* WelcomeView.swift */,
+				10235F07275BEBCB0046FF59 /* SignupView.swift */,
+				10235F01275BEBA90046FF59 /* LoginView.swift */,
+				4FDDB5042768DCA1003AD3BB /* MapViewController.swift */,
+				10449FC4275BEF7C0014FFE6 /* ForgotPasswordView.swift */,
+				4F04E5A32782F5A3002A6E86 /* FireLoader.swift */,
+				10449FC8275BF0EA0014FFE6 /* ResetCodeView.swift */,
+				10449FC6275BF0DF0014FFE6 /* PasswordResetView.swift */,
+				10605F97275C0DD800AD4428 /* ProfileView.swift */,
+				10235EFF275BEBA30046FF59 /* PeopleView.swift */,
+				10235EFD275BEB8F0046FF59 /* ChatView.swift */,
+				10235F03275BEBB40046FF59 /* NotificationView.swift */,
+				10235F05275BEBC40046FF59 /* SettingsView.swift */,
+				1022CC36275C268100BCB5B0 /* ChooseUserView.swift */,
+				1022CC38275C30F200BCB5B0 /* MessagesView.swift */,
+				889EFB4E2767BC1C000137E8 /* FacebookViewController.swift */,
+				4F97223B277B2E2F009EBB3B /* PayViewController.swift */,
+				4F972241277B858E009EBB3B /* QrCodeViewController.swift */,
+				4F04E5A52782F664002A6E86 /* FireAnimViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE8DCF61275BA4AF00CA8467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10235E95275BC4E30046FF59 /* Chat.swift */,
+				10235E97275BC4E30046FF59 /* Like.swift */,
+				10235E98275BC4E30046FF59 /* Message.swift */,
+				10235E99275BC4E30046FF59 /* Payment.swift */,
+				10235E96275BC4E30046FF59 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8DCF3E275BA3C000CA8467 /* Geochat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DCF53275BA3C100CA8467 /* Build configuration list for PBXNativeTarget "Geochat" */;
+			buildPhases = (
+				888230BD3766F6A04DD3A44C /* [CP] Check Pods Manifest.lock */,
+				CE8DCF3B275BA3C000CA8467 /* Sources */,
+				CE8DCF3C275BA3C000CA8467 /* Frameworks */,
+				CE8DCF3D275BA3C000CA8467 /* Resources */,
+				1420ACA0F99FAF904DA7AD2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geochat;
+			packageProductDependencies = (
+				889EFB592767CFE6000137E8 /* FacebookCore */,
+				889EFB5B2767CFF0000137E8 /* FacebookGamingServices */,
+				889EFB5D2767CFF4000137E8 /* FacebookLogin */,
+				889EFB5F2767CFFA000137E8 /* FacebookShare */,
+			);
+			productName = Geochat;
+			productReference = CE8DCF3F275BA3C000CA8467 /* Geochat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8DCF37275BA3C000CA8467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CE8DCF3E275BA3C000CA8467 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CE8DCF3A275BA3C000CA8467 /* Build configuration list for PBXProject "Geochat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8DCF36275BA3C000CA8467;
+			packageReferences = (
+				889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				4F97223F277B37BF009EBB3B /* XCRemoteSwiftPackageReference "braintree_ios" */,
+			);
+			productRefGroup = CE8DCF40275BA3C000CA8467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8DCF3E275BA3C000CA8467 /* Geochat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8DCF3D275BA3C000CA8467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10235EE2275BE9EE0046FF59 /* Main.storyboard in Resources */,
+				10235EE1275BE9EE0046FF59 /* LaunchScreen.storyboard in Resources */,
+				CE8DCF4C275BA3C100CA8467 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1420ACA0F99FAF904DA7AD2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geochat/Pods-Geochat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geochat/Pods-Geochat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geochat/Pods-Geochat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888230BD3766F6A04DD3A44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geochat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8DCF3B275BA3C000CA8467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10235EE8275BEA8B0046FF59 /* Extensions.swift in Sources */,
+				4F97223C277B2E2F009EBB3B /* PayViewController.swift in Sources */,
+				10235EEA275BEA8B0046FF59 /* Constants.swift in Sources */,
+				10235F04275BEBB40046FF59 /* NotificationView.swift in Sources */,
+				CE8DCF43275BA3C000CA8467 /* AppDelegate.swift in Sources */,
+				10235F0A275BEBD20046FF59 /* VerifUserView.swift in Sources */,
+				10235EE9275BEA8B0046FF59 /* Alert.swift in Sources */,
+				10235EFE275BEB8F0046FF59 /* ChatView.swift in Sources */,
+				10449FC9275BF0EA0014FFE6 /* ResetCodeView.swift in Sources */,
+				4F04E5A62782F664002A6E86 /* FireAnimViewController.swift in Sources */,
+				CE8DCF45275BA3C000CA8467 /* SceneDelegate.swift in Sources */,
+				10449FC5275BEF7C0014FFE6 /* ForgotPasswordView.swift in Sources */,
+				1022CC39275C30F200BCB5B0 /* MessagesView.swift in Sources */,
+				10235EDB275BE8B10046FF59 /* LikeViewModel.swift in Sources */,
+				10605F98275C0DD800AD4428 /* ProfileView.swift in Sources */,
+				1022CC37275C268100BCB5B0 /* ChooseUserView.swift in Sources */,
+				10235EDA275BE8B10046FF59 /* ChatViewModel.swift in Sources */,
+				10235F00275BEBA30046FF59 /* PeopleView.swift in Sources */,
+				889EFB4F2767BC1C000137E8 /* FacebookViewController.swift in Sources */,
+				10235E9B275BC4E30046FF59 /* User.swift in Sources */,
+				10235E9C275BC4E30046FF59 /* Like.swift in Sources */,
+				10235EDC275BE8B10046FF59 /* PaymentViewModel.swift in Sources */,
+				10235E9A275BC4E30046FF59 /* Chat.swift in Sources */,
+				10235EEB275BEA8B0046FF59 /* PinAnnotation.swift in Sources */,
+				4FDDB5052768DCA1003AD3BB /* MapViewController.swift in Sources */,
+				10235EDD275BE8B10046FF59 /* MessageViewModel.swift in Sources */,
+				10235E9E275BC4E30046FF59 /* Payment.swift in Sources */,
+				10235EEC275BEA8B0046FF59 /* Spinner.swift in Sources */,
+				10235EDE275BE8B10046FF59 /* UserViewModel.swift in Sources */,
+				10235F0C275BEBE40046FF59 /* WelcomeView.swift in Sources */,
+				10235F02275BEBA90046FF59 /* LoginView.swift in Sources */,
+				10235E9D275BC4E30046FF59 /* Message.swift in Sources */,
+				10449FC7275BF0DF0014FFE6 /* PasswordResetView.swift in Sources */,
+				10235F06275BEBC40046FF59 /* SettingsView.swift in Sources */,
+				4F972242277B858E009EBB3B /* QrCodeViewController.swift in Sources */,
+				10235F08275BEBCB0046FF59 /* SignupView.swift in Sources */,
+				4FA814FC277C7D2F007FC233 /* SecondModalTransitionMediator.swift in Sources */,
+				4F04E5A42782F5A3002A6E86 /* FireLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8DCF51275BA3C100CA8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8DCF52275BA3C100CA8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8DCF54275BA3C100CA8467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD26892BCE6FC3C6B0A9AB1 /* Pods-Geochat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Geochat/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your Location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.geochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8DCF55275BA3C100CA8467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF3CE407264872F40E725F6 /* Pods-Geochat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Geochat/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your Location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.geochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8DCF3A275BA3C000CA8467 /* Build configuration list for PBXProject "Geochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DCF51275BA3C100CA8467 /* Debug */,
+				CE8DCF52275BA3C100CA8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DCF53275BA3C100CA8467 /* Build configuration list for PBXNativeTarget "Geochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DCF54275BA3C100CA8467 /* Debug */,
+				CE8DCF55275BA3C100CA8467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F97223F277B37BF009EBB3B /* XCRemoteSwiftPackageReference "braintree_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/braintree_ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		889EFB592767CFE6000137E8 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		889EFB5B2767CFF0000137E8 /* FacebookGamingServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookGamingServices;
+		};
+		889EFB5D2767CFF4000137E8 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		889EFB5F2767CFFA000137E8 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 889EFB502767BD2C000137E8 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE8DCF37275BA3C000CA8467 /* Project object */;
+}
