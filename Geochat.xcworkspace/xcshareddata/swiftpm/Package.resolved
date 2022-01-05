@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Braintree",
+        "repositoryURL": "https://github.com/braintree/braintree_ios.git",
+        "state": {
+          "branch": "master",
+          "revision": "7b330a605d36470eaa8977f89695c2d318e9cce0",
+          "version": null
+        }
+      },
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "c3d367656ae8ced1149c2c6a5e6b5dd91ecad63c",
+          "version": "9.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,6 @@
+framework module Pods_Geochat {
+  umbrella header "Pods-Geochat-umbrella.h"
+
+  export *
+  module * { export * }
+}
